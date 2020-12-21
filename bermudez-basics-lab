@@ -1,0 +1,51 @@
+let userName = prompt("Hi, what is your name?")
+
+let userJob = prompt(`Hi, ${userName}! What do you do?`)
+
+let yesOrNo = prompt(`Interesting! Do you love being a ${userJob}?`)
+
+alert(`${userName} is a ${userJob} and loves it!`)
+
+
+let userName = prompt('Hello! What is your name??')
+
+let green = green;
+
+let red = red;
+
+let yellow = yellow;
+
+let chooseColor = prompt(`Choose a color. ${green}, ${red}, ${yellow}.`)
+
+alert(`You chose ${chooseColor}`)
+
+let finalAnswer = prompt(`Liyah chose the color ${chooseColor}.`)
+
+
+userNumber = prompt('Pick a number between 1 and 20. Please provide the numerical value and NOT the word.')
+
+let x = userNumber;
+
+if ( x < 5 ) {
+    console.log('Tiny')
+} else if ( x < 10 ) {
+    console.log('Small')
+} else if ( x < 15 ) {
+    console.log('Medium')
+} else if ( x < 20 ) {
+    console.log('Large')
+} else if ( x = 20 ) {
+    console.log('Huge')
+}
+
+
+
+userName = prompt('What is your name?')
+
+let userWage = prompt('How much do you get paid hourly. Please just provide the numerical value.')
+
+let userHours = prompt('How many hours did you work. Please provide the numerical value ONLY.')
+
+let totalPay = userWage * userHours;
+
+let userStatement = prompt(`${userName} worked a total of ${userHours} receiving a pay of ${totalPay}.`)
